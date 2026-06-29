@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Tasks from "./pages/Tasks";
 import Calendar from "./pages/Calendar";
 import Settings from "./pages/Settings";
+import Reports from "./pages/Reports";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/reports" element={<Reports/>} />
 
 
       </Routes>
